@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/React-JS---Game-of-Life/static/js/runtime~main.f98c74e2.js"
   },
   {
-    "revision": "9779f4e913bb9a31c3a9",
-    "url": "/React-JS---Game-of-Life/static/js/main.9779f4e9.chunk.js"
+    "revision": "52474531776287a1393f",
+    "url": "/React-JS---Game-of-Life/static/js/main.52474531.chunk.js"
   },
   {
     "revision": "ace62ad78903889e8e0e",
     "url": "/React-JS---Game-of-Life/static/js/1.ace62ad7.chunk.js"
   },
   {
-    "revision": "9779f4e913bb9a31c3a9",
-    "url": "/React-JS---Game-of-Life/static/css/main.e0cfe29d.chunk.css"
+    "revision": "52474531776287a1393f",
+    "url": "/React-JS---Game-of-Life/static/css/main.5056d04c.chunk.css"
   },
   {
-    "revision": "11e313f733f68bcd2d9e00ee3406fe14",
+    "revision": "79333daaaf1da215fbdd8c14d844fe16",
     "url": "/React-JS---Game-of-Life/index.html"
   }
 ];
