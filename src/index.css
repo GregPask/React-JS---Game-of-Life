@@ -1,0 +1,173 @@
+h1,h2,h3,h4, p{
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-image: linear-gradient(rgb(39, 125, 175), rgb(37, 37, 36));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  color: #fff;
+
+}
+
+
+/* Board section --------------------------------------------------------- */
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(50,1fr);
+  grid-template-rows: repeat(30,1fr);
+  width: 849px;
+  margin: auto;
+ border: 10px solid rgb(46, 44, 44);
+ border-radius: 1em;
+
+}
+
+
+
+
+/* Square Section ------------------------------------------------------------*/
+
+.square {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #333;
+}
+
+
+.true {
+  background-color: rgba(0, 255, 242, 0.493);
+}
+
+
+.false {
+  background-color: black;
+}
+
+
+
+
+/* Buttons ----------------------------------------------------------------------------*/
+
+
+.buttons {
+  display: grid;
+  width: 500px;
+  margin: 1em auto;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1em;
+}
+
+.btn {
+  border: 2px solid rgb(51, 51, 51);
+  border-radius: 1em;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 1px 2px 6px 0.2px #333;
+}
+
+
+.btn1 {
+  background-color: orange;
+}
+
+
+.btn2 {
+  background-color: rgb(153, 0, 255);
+}
+
+.btn3 {
+  background-color: rgb(255, 51, 0);
+}
+
+.btn4 {
+  background-color: rgb(26, 146, 26);
+  box-shadow: 2px 2px 8px 0.2px rgb(39, 39, 39);
+  width: 250px;
+}
+
+
+
+.play {
+  width: 60%;
+  margin: 1em auto;
+  text-align: center;
+}
+
+
+
+/* hr --------------------------------------------------------*/
+
+.width {
+  width: 60%;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+/* Media Queries -------------------------------------------------------------------------------------- */
+
+@media (max-width: 850px){
+  
+.square {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #333;
+}
+
+
+.board {
+  width: 599px;
+}
+
+
+
+}
+
+
+
+@media (max-width: 700px){
+  
+  .square {
+    width: 4px;
+    height: 4px;
+    border: 1px solid #333;
+  }
+  
+
+  .board {
+    width: 300px;
+  }
+
+  .buttons {
+  grid-template-columns: 1fr;
+  width: 300px;
+  }
+
+  .btn {
+    padding: 4px;
+    width: 100px;
+    margin: auto;
+    font-size: 1em;
+  }
+
+
+  .p {
+    margin-bottom: 5em;
+  }
+
+  
+}
