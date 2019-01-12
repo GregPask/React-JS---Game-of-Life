@@ -4,3 +4,11 @@
 https://gregpask.github.io/React-JS---Game-of-Life/
 
 
+
+
+### Install Depenencies
+
+'''
+npm install 
+
+'''
