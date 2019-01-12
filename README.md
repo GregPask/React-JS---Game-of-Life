@@ -6,9 +6,13 @@ https://gregpask.github.io/React-JS---Game-of-Life/
 
 
 
-### Install Depenencies
 
-''' bash
- npm install 
+## Quick Start
 
-'''
+``` bash
+# Install dependencies
+npm install
+
+# Run Local server
+npm start
+
